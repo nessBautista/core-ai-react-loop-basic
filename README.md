@@ -49,4 +49,4 @@ The same loop can run a model fully on-device with Apple's Core AI; that's the s
 of a follow-up post.
 
 ### Demo
-[![Demo](https://img.shields.io/badge/Watch-Demo-blue)](https://github.com/user-attachments/assets/a8c2ce29-36cd-4b87-b02a-b9134fa20a2c)
+<img width="400" height="870" alt="simple_react_loop_demo" src="https://github.com/user-attachments/assets/2832ad26-b900-4e0b-ae90-8e5537f34807" />
