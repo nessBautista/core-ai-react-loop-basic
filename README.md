@@ -47,3 +47,6 @@ agent think, search, read the result, and finish — step by step, in the UI.
 
 The same loop can run a model fully on-device with Apple's Core AI; that's the subject
 of a follow-up post.
+
+### Demo
+<img width="400" height="870" alt="simple_react_loop_demo" src="https://github.com/user-attachments/assets/2832ad26-b900-4e0b-ae90-8e5537f34807" />
