@@ -1,0 +1,49 @@
+# =============================================================================
+#  .gitignore — core-ai-react-loop-basic
+#
+#  SECURITY NOTE: this app reads its API keys (OPENROUTER_API_KEY,
+#  TAVILY_API_KEY) from the Run scheme's EnvironmentVariables. Xcode stores
+#  those values *in the .xcscheme file*, in plaintext. Never commit schemes or
+#  the .xcodeproj to a public repo, or the keys leak. The rules below enforce
+#  that. Set the two variables locally via Product > Scheme > Edit Scheme >
+#  Run > Arguments > Environment Variables.
+# =============================================================================
+
+# --- Secrets / local config (never commit) ---
+*.env
+.env*
+Secrets.xcconfig
+*.key
+*.pem
+*.p12
+*.mobileprovision
+
+# --- Xcode project & schemes (keys live in the scheme's EnvironmentVariables) ---
+*.xcodeproj/
+*.xcworkspace/
+*.xcscheme
+
+# --- Xcode user & build artifacts ---
+xcuserdata/
+*.xcuserstate
+*.xcuserdatad/
+DerivedData/
+build/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# --- Swift Package Manager ---
+.build/
+.swiftpm/
+Package.resolved
+
+# --- Large on-device model export (do not commit weights/binaries) ---
+Models/
+
+# --- macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
