@@ -47,3 +47,6 @@ agent think, search, read the result, and finish — step by step, in the UI.
 
 The same loop can run a model fully on-device with Apple's Core AI; that's the subject
 of a follow-up post.
+
+### Demo
+[![Demo](https://img.shields.io/badge/Watch-Demo-blue)](https://github.com/user-attachments/assets/a8c2ce29-36cd-4b87-b02a-b9134fa20a2c)
